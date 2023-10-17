@@ -1,80 +1,56 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Complex table</title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            background-color: lightblue;
+        }
+        td{
+            padding: 10px;
+        }
+        .bold{
+            font-weight: bold;
+        }
+    </style>
+</head>
 <body>
-    <table>
-            <caption>CURICULLUM VITAE.</caption>
+    <table border="1">
         <tr>
-            <th>Outer Table</th>
-            <td>
-                <table border>
-                    <caption>CURRICULUM VITAE2.</caption>
-                    <tr>
-                        <th rowspan="5">Inner Table</th>
-                    </tr>
-                <tr>
-                    <th rowspan="2" colspan="2">CORNER</th>
-                    <TH colspan="3">Head1</TH>
-                </tr>
-                <tr>
-                    <th rowspan="2">Head2</th>
-                    <th colspan="2">Head3</th>
-                </tr>
-                <tr>
-                    <th>Head4</th>
-                    <th>Head5</th>
-                    <th>Head6</th>
-                </tr>
-                <tr>
-                    <td>A</td>
-                    <td rowspan="2" valign="middle" bgcolor="blue">Two Tall</td>
-                    <td bgcolor="white">
-                        <ul>
-                            <li>list can be table data</li>
-                            <li>Image can be table data</li>
-                        </ul>
-                    </td>
-                    <td colspan="2" align="center">Two middle</td>
-                </tr>
-                <tr valign="middle">
-                    <td><img src="images" alt="HTML Station"</td>
-                    <td align="center">
-                        A <a href="form.html">Form</a>
-                        <form>
-                            Your age: <input type="text" name="user-age" size="2"> <BR>
-                                What is your favorite ice cream?<br>
-                                <select name="favorite-ice cream">
-                                    <option>Vanilla</option>
-                                    <option>Cokelat</option>
-                                    <option>Strawberry</option>
-                                </select><BR>
-                                    <input type="submit" value="OK"
-                                    <input type="reset" value="Cancel"
-                        </form>
-                    </td>
-                    <td>
-                        <table>
-                            <caption>No border</caption>
-                            <tr>
-                                <th>Little</th>
-                            </tr>
-                            <tr>
-                                <td>Table</td>
-                            </tr>
-                        </table>
-                    </td>
-                    <td>
-                        Multiple<BR>
-                            line<BR>
-                            item
-                    </td>
-                </tr>
-                </table>
-            </td>
+            <td align="center" colspan="6" class="bold">Data Mahasiswa</td>
+        </tr>
+        <tr>
+            <td rowspan="2" align="center" class="bold">No</td>
+            <td rowspan="2" align="center" class="bold">NRP</td>
+            <td colspan="2" align="center" class="bold">Nama</td>
+            <td rowspan="2" align="center" class="bold">Alamat</td>
+            <td rowspan="2" align="center" class="bold">No.Hp</td>
+        </tr>
+        <tr>
+            <td align="center" class="bold">Nama depan</td>
+            <td align="center" class="bold">Nama Belakang</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>113040001</td>
+            <td>Asep</td>
+            <td>Setia</td>
+            <td>Setiabudhi</td>
+            <td>081234567890</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2</td>
+            <td rowspan="2">113040011</td>
+            <td rowspan="2">Dani</td>
+            <td rowspan="2">Gunawan</td>
+            <td rowspan="2">Lembang</td>
+            <td>089038131212</td>
+        </tr>
+        <tr>
+            <td>081392482222</td>
         </tr>
     </table>
-    
 </body>
 </html>
