@@ -23,7 +23,7 @@ body {
     font: 16px/28px arial,sans-serif;
     background-color: #eaeaea;
     color: #333;
-    background-image: url(img/background.jpg);
+    background-image: url(moroccan-flower-dark.jpg);
 }
 
 .container {
@@ -61,7 +61,7 @@ body {
 
 .hero {
     height: 280px;
-    background-image: url(img/hero.jpg);
+    background-image: url(foto.jpg);
     background-size: cover;
     background-position: 0 -180px;
     border-bottom: 5px solid lightskyblue;
